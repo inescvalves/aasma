@@ -40,7 +40,7 @@ class RandomAgent(Agent):
 
     def __init__(self, n_actions: int):
         super(RandomAgent, self).__init__("Random Agent")
-        self.actions = n_actions;
+        self.actions = n_actions
         #raise NotImplementedError()
 
     def action(self) -> int:
